@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./assets/css/glasses.css">
+</head>
+<body>
+  <svg class="svg-defs">
+    <defs>
+      <clipPath id="svg-glasses">
+        <!-- <g id="group-glasses"> -->
+          <path id="group-glasses-01" d="M7.3051 134.702C3.05715 86.7984 -12.2827 33.2316 41.2887 22.8486C161.684 -2.38794 280.599 -2.52371 402.129 10.8137C479.536 19.3089 484.492 62.0208 456.172 211.394C444.372 267.321 422.896 307.673 349.501 313.337C276.106 319 170.379 316.64 97.2201 296.346C24.0609 276.052 20.521 270.625 7.3051 134.702Z" fill="none" stroke="white" stroke-width="4"/>
+          <path id="group-glasses-02" d="M1014.69 134.702C1018.94 86.7984 1034.28 33.2316 980.711 22.8486C860.316 -2.38794 741.401 -2.52371 619.871 10.8137C542.464 19.3089 537.508 62.0208 565.828 211.394C577.628 267.321 599.104 307.673 672.499 313.337C745.894 319 851.621 316.64 924.78 296.346C997.939 276.052 1001.48 270.625 1014.69 134.702Z" fill="none" stroke="white" stroke-width="4"/>
+        <!-- </g> -->
+      </clipPath>
+      <g id="move-glasses">
+        <circle cx="511" cy="159" r="24" fill="#009EE0"/>
+        <path d="M514.535 168.465L511 172L507.464 168.465" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M511 163V172" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M507.464 149.536L511 146L514.535 149.536" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M511 155V146" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M501.536 162.536L498 159L501.536 155.465" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M507 159H498" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M520.464 155.465L524 159L520.464 162.536" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M515 159H524" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </defs>
+    <!-- <defs>
+      <linearGradient id="paint0_linear_325:893" x1="785" y1="2" x2="785" y2="316" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white" stop-opacity="0.4375"/>
+        <stop offset="0.541667" stop-color="white"/>
+        <stop offset="1" stop-color="white" stop-opacity="0.12"/>
+      </linearGradient>
+      <linearGradient id="paint1_linear_325:893" x1="785" y1="2" x2="785" y2="316" gradientUnits="userSpaceOnUse">
+        <stop stop-color="white" stop-opacity="0.4375"/>
+        <stop offset="0.541667" stop-color="white"/>
+        <stop offset="1" stop-color="white" stop-opacity="0.12"/>
+      </linearGradient>
+    </defs> -->
+  </svg>
+
+  <div class="wrapper">
+    <div class="item item--svg-clip-path-svg">
+      <div class="demo">
+        <svg width="1440" height="640">
+          <use xlink:href="#group-glasses-01" />
+          <use xlink:href="#group-glasses-02" />
+          <use xlink:href="#move-glasses" />
+
+          <image xlink:href="./assets/images/02.jpg" />
+        </svg>
+          <!-- <img src="./01.jpg" alt="" > -->
+      </div>
+    </div>
+  </div>
+  
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
